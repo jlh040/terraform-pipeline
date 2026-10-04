@@ -24,5 +24,6 @@ resource "aws_s3_bucket" "staging_bucket" {
   tags = {
     Name = "Staging Bucket"
     ManagedBy = "Terraform via GitHub Actions"
+    Purpose = "Pipeline"
   }
 }
