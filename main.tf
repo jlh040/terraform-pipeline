@@ -8,7 +8,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "jeff-devops-bucket-v2"
+    bucket = "my-devops-book-tfstate-123455"
     key = "staging/terraform.tfstate"
     region = "us-east-1"
   }
